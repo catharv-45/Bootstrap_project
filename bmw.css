@@ -1,0 +1,47 @@
+:root{
+    --red:#dc3445;
+}
+.navbar{
+    text-decoration:uppercase;
+    font-weight:600;
+    background-color: #13242e;
+    color:white
+}
+body{
+    background-color: #323946;
+}
+.header{
+    color:#0ef;
+}
+.nav-link{
+    color: white;
+    transition: all 0.5s;
+}
+.nav-link:hover {
+    color:rgb(133,212,248);
+}
+.navbar img{
+    width:100px;
+}
+button .navbar-toggler-icon {
+    color:white; 
+}
+.carousel-item h5{
+    color:aqua;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+.carousel-item p{
+    text-shadow: 2px 2px 2px black;
+    font-weight:600;
+}
+.carousel-item .btn{
+    width:6rem;
+    margin-bottom:1rem;
+}
+.carousel-item{
+    max-height:calc(100vh-200px);
+}
+.bi {
+    font-size: 2rem;
+}
