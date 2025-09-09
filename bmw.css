@@ -26,6 +26,12 @@ body{
 button .navbar-toggler-icon {
     color:white; 
 }
+/*  imp fo adject image*/
+.carousel-item img {
+    width:100%;
+    height:80vh;
+    object-fit:cover;
+}
 .carousel-item h5{
     color:aqua;
     font-size: 2.5rem;
@@ -42,6 +48,7 @@ button .navbar-toggler-icon {
 .carousel-item{
     max-height:calc(100vh-200px);
 }
+
 .bi {
     font-size: 2rem;
 }

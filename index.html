@@ -55,6 +55,7 @@
             </div>
         </div>
     </nav>
+    <!-- here I use carouse components of bootstrap-->
     <div id="carouselExampleCaptions" class="carousel slide container">
       <div class="carousel-indicators">
         <button
@@ -116,8 +117,167 @@
           </div>
         </div>
       </div>
-    <div></div>
-    <main></main>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!-- main body Section (About section) in this I write all css in bootstrap-->
+    <main class="text-center">
+      <section id="about" class="container bg-light my-5 p-3">
+        <h1 class="display-6 text-danger mb-4">ABOUT US</h1>
+        <div class="row justify-content-center">
+          <!-- divide section based on screen size it contains 3 content -->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <i class="bi bi-globe-americas"></i>
+            <h4>History</h4>
+            <p>
+              BMW's origins trace back to the early 20th century. Initially, it
+              started as an aircraft engine manufacturer during World War I.
+              After the war, BMW shifted to making motorcycles in 1923, followed
+              by automobiles in 1928.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <i class="bi bi-globe-americas"></i>
+            <h4>Our Global Presence</h4>
+            <p>
+              Global Presence: BMW operates in more than 150 countries, with
+              manufacturing plants in Germany, the U.S., China, South Africa,
+              and other locations.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <i class="bi bi-globe-americas"></i>
+            <h4>Philosophy</h4>
+            <p>
+              BMW’s philosophy, encapsulated in the tagline "The Ultimate
+              Driving Machine," is deeply rooted in the company’s commitment to
+              delivering exceptional performance, precision engineering, and an
+              unparalleled driving experience.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="members" class="container bg-dark my-5 p-3">
+        <h2 class="display-6 text-danger">MEMBERS</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <!-- check this class property-->
+            <div class="card d-flex flex-column h-100">
+              <img src="images/Susanne klatten.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Susanne klatten</h5>
+                <p class="card-text">
+                  Susanne Klatten owns about 19% of automaker BMW; her brother,
+                  Stefan Quandt, owns nearly 24%.
+                </p>
+                <div class="socials d-flex justify-content-around">
+                  <i class="bi bi-facebook text-danger"></i>
+                  <i class="bi bi-instagram text-danger"></i>
+                  <i class="bi bi-twitter-x text-danger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card d-flex flex-column h-100">
+              <img src="images/Stefan Quandt.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Stefan Quandt</h5>
+                <p class="card-text">
+                  deputy chairman of BMW and owns around 25.6% of the company
+                </p>
+                <div class="socials d-flex justify-content-around">
+                  <i class="bi bi-facebook text-danger"></i>
+                  <i class="bi bi-instagram text-danger"></i>
+                  <i class="bi bi-twitter-x text-danger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card d-flex flex-column h-100">
+              <img src="images/Franz Josef.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Franz Josef</h5>
+                <p class="card-text">
+                  Franz Josef Popp was one of three men responsible for the
+                  founding of BMW AG and the First General Director of BMW AG
+                  from 1922 to 1942.
+                </p>
+                <div class="socials d-flex justify-content-around">
+                  <i class="bi bi-facebook text-danger"></i>
+                  <i class="bi bi-instagram text-danger"></i>
+                  <i class="bi bi-twitter-x text-danger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card d-flex flex-column h-100">
+              <img
+                src="images/camillo castiglioni italienisch.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Camillo Castiglioni</h5>
+                <p class="card-text">
+                  Camillo Castiglioni was a financier and aircraft construction
+                  pioneer who played a major role in the development of BMW.
+                </p>
+                <div class="socials d-flex justify-content-around">
+                  <i class="bi bi-facebook text-danger"></i>
+                  <i class="bi bi-instagram text-danger"></i>
+                  <i class="bi bi-twitter-x text-danger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card d-flex flex-column h-100">
+              <img src="images/Gustav Otto.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Gustav Otto</h5>
+                <p class="card-text">
+                  In 1916, Gustav Otto founded the Bayerische Flugzeugwerke AG
+                  (Bavarian Aircraft Works), which later became BMW.
+                </p>
+                <div class="socials d-flex justify-content-around">
+                  <i class="bi bi-facebook text-danger"></i>
+                  <i class="bi bi-instagram text-danger"></i>
+                  <i class="bi bi-twitter-x text-danger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="card d-flex flex-column h-100">
+              <img src="images/founder.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Karl Rapp</h5>
+                <p class="card-text">
+                  Karl Friedrich Rapp (1882 - 1962) was a German mechanical
+                  engineer and the founder of Rapp Motorenwerke, which later
+                  became BMW.
+                </p>
+                <div class="socials d-flex justify-content-around">
+                  <i class="bi bi-facebook text-danger"></i>
+                  <i class="bi bi-instagram text-danger"></i>
+                  <i class="bi bi-twitter-x text-danger"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
