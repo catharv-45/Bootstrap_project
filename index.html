@@ -46,7 +46,7 @@
                   <a class="nav-link" href="#founder" aria-current="page">founder</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#question" aria-current="page">Question</a>
+                  <a class="nav-link" href="#showroom" aria-current="page">Showroom</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact" aria-current="page">contact</a>
@@ -79,7 +79,7 @@
           aria-label="Slide 5"
         ></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner" id="home">
         <div class="carousel-item active">
           <img src="images/bmw1.avif" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
@@ -163,7 +163,7 @@
           </div>
         </div>
       </section>
-      <section id="members" class="container bg-dark my-5 p-3">
+      <section id="founder" class="container bg-dark my-5 p-3">
         <h2 class="display-6 text-danger">MEMBERS</h2>
         <div class="row g-4 justify-content-center">
           <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
@@ -277,6 +277,128 @@
         </div>
         </div>
       </section>
+      <section id="showroom" class="container bg-light my-5 p-3">
+        <h2 class="display-6 text-danger">OUR SHOPS IN INDIA</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6 ">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum assumenda neque omnis aut accusantium! Quia, a magnam
+              eveniet necessitatibus repellendus illum possimus officiis
+              praesentium atque? Hic excepturi perspiciatis maiores quos?
+            </p>
+            <button class="btn btn-danger m-2">Show City</button>
+          </div>
+          <div class="col-md-6">
+            <img src="images/showroom.avif" alt="showroom" class="w-75" />
+          </div>
+        </div>
+      </section>
+      <section id="offers" class="container bg-light my-5 p-3">
+        <div class="row align-items-center py-2">
+          <h2 class="display-6 text-danger">BMW Special Offers</h2>
+          <div class="col-md-6 text-center">
+            <!-- here we use accordion components-->
+             <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    THE BMW 3 SERIES GRAN LIMOUSINE
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body custom-bg text-white">
+                    MONTHLY EMI STARTING AT ₹49,999/MONTH*. NOW AT AN INTEREST
+                    RATE OF 9.75%.UP TO 40% LOWER THAN STANDARD EMI. STARTING AT
+                    ₹60.60 LAKH. ASSURED BUYBACK OF UP TO 53%. TRADE-IN AND
+                    LOYALTY BENEFITS UP TO 1.5 LAKH. INCLUDES BMW SERVICE
+                    INCLUSIVE (4 YEARS) WITH ANNUAL MILEAGE OF 15000 KMS AND
+                    TENURE OF 4 YEARS.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    THE BMW 5 LONG WHEELBASE
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body custom-bg text-white">
+                    MONTHLY EMI STARTING AT ₹79,999/MONTH*. NOW AT AN INTEREST
+                    RATE OF 8.99%. ASSURED BUYBACK OF UP TO 58%. INCLUDES 4-YEAR
+                    SERVICE AND REGISTRATION CHARGES. TRADE-IN AND LOYALTY
+                    BENEFITS UP TO 1.5 LAKH. INCLUDES BMW SERVICE INCLUSIVE (4
+                    YEARS) WITH ANNUAL MILEAGE OF 15000 KMS AND TENURE OF 4
+                    YEARS
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    THE BMW X1
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body custom-bg text-white">
+                    MONTHLY EMI STARTING AT ₹34,999/MONTH*.NOW AT AN INTEREST
+                    RATE OF 9.49%.UP TO 40% LOWER THAN STANDARD EMI. STARTING AT
+                    ₹50.80 LAKH. ASSURED BUYBACK OF UP TO 59%.INCLUDES SERVICE
+                    CHARGES. TRADE-IN AND LOYALTY BENEFITS UP TO 1.5 LAKH.
+                    INCLUDES BMW SERVICE INCLUSIVE (4 YEARS) WITH ANNUAL MILEAGE
+                    OF 15000 KMS AND TENURE OF 4 YEARS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              src="images/bmw_logo-removebg-preview.png"
+              alt="offers"
+              class="offers-img"
+            />
+          </div>
+        </div>
+      </section>
+
     </main>
     <footer></footer>
     

@@ -52,3 +52,18 @@ button .navbar-toggler-icon {
 .bi {
     font-size: 2rem;
 }
+.card{
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+card-body{
+    flex-grow:1;
+}
+.offers-img{
+    height: 30%;
+    width: 60%;
+}
+.custom-bg{
+    background-color:#323946;
+}
